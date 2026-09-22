@@ -11,4 +11,9 @@ public class HomeController {
 	    {
 	    		return "index";
 	    }
+	 
+	 public String status()
+	 {
+		 return "The service is in live";
+	 }
 }
